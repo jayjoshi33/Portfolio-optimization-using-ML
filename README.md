@@ -12,6 +12,16 @@ Portfolio optimization is a key concept in financial analysis and investment man
 - **Portfolio Optimization**: Uses algorithms to determine the ideal weight for each asset to maximize the Sharpe ratio or minimize risk.
 - **Visualizations**: Plots the efficient frontier, asset allocation, and other key metrics for better understanding.
 
+# Backtesting Results
+
+| Time-period  | Period (Start Date - End Date) | Method          | Average return | Nifty return | Number of stocks |
+|--------------|---------------------------------|-----------------|----------------|--------------|------------------|
+| 1-week       | 01-01-2023 - 22-09-2023         | Mean-Variance   | 0.61           | 0.27         | 4                |
+| 2-weeks      | 13-01-2023 - 22-09-2023         | Max Sharpe      | 1.54           | 0.69         | 9                |
+| 1-month      | 22-01-2021 - 22-09-2023         | Equal-weighted  | 2.88           | 1.02         | 8                |
+| 3-months     | 22-01-2021 - 22-09-2023         | Equal-weighted  | 7.5            | 3.21         | 13               |
+
+
 ## Installation
 To run this notebook, you'll need Python 3.x and the following packages:
 - `pandas`
